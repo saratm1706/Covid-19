@@ -1,0 +1,126 @@
+
+  @media screen and (max-width: 1128px) and (min-width: 320px){
+    .search-box {
+      position: fixed;
+      top: 8%;
+      left: 97%;
+      transform: translate(-100%, -30%);
+      width: 45%;
+      /* transition: ease-in-out 4s; */
+      padding: 0;
+      background-color: transparent;
+      
+    }
+    #country-name {
+      width: 85%;
+      font-size: 2vmax;
+      border-bottom:1px ridge grey;
+       line-height:20px;
+       padding:0 1px 0 0 ;
+       color: grey;
+      /* transition: 0s; */
+    }
+     
+    .search-btn > img {
+    display:none;
+   }
+   .search-btn .search-icon2{
+    display:initial;
+   } 
+    ::placeholder {
+      /* font-family: sans-serif; */
+      font-style: italic;
+      color: rgb(179, 177, 177);
+      opacity: 0.6;
+      font-size:1.8vw;
+    }
+    .search-btn {
+      transform: translate(-50%, -10%);
+    
+    }  
+  
+  
+    .autocomplete-items {
+      border: 0px solid #d4d4d4;
+      border-radius: 7px;
+      top: 54%;
+      max-height: 20vh;
+    }
+    
+    .autocomplete-items div {
+      padding: 7px;
+      background-color: rgba(189, 186, 186, 0.89);
+      border-bottom: 1px solid #d4d4d4;
+      color: #244765;
+    }
+  }
+  
+
+  @media screen and (max-width: 1128px) and (min-width: 580px) {
+    .search-box {
+      position: fixed;
+      top: 8%;
+      left: 97%;
+      transform: translate(-100%, -30%);
+      width: 30vw;
+      /* transition: ease-in-out 4s; */
+      padding: 0;
+    }
+    
+  }
+
+  @media screen and (max-device-height:580px) and (min-device-height:320px){
+    .search-box {
+        position: fixed;
+        top: 13%;
+        left: 97%;
+        transform: translate(-100%, -30%);
+        width: 28%;
+        /* transition: ease-in-out 4s; */
+        padding: 0;
+        
+      }
+      #country-name {
+        width: 85%;
+        font-size: 2vmax;
+         line-height:21px;
+         padding:0 1px 0 0 ;
+        /* transition: 0s; */
+      }
+      ::placeholder {
+        /* font-family: sans-serif; */
+        font-style: italic;
+        color: rgb(179, 177, 177);
+        opacity: 0.6;
+        font-size:1.8vmax;
+      }
+
+
+  }
+
+  @media screen and (max-device-width:580px) and (min-device-width:320px) and (orientation : portrait){
+    .search-box {
+        position: fixed;
+        top: 10.5%;
+        left: 97%;
+        transform: translate(-100%, -30%);
+        width: 50%;
+        /* transition: ease-in-out 4s; */
+        padding: 0;
+      }
+      #country-name {
+        width: 85%;
+        font-size: 2vmax;
+        border-bottom:1px ridge grey;
+         line-height:21px;
+         padding:0 1px 0 0 ;
+         color: grey;
+        /* transition: 0s; */
+      }
+     ::placeholder{
+       font-size: 1.6vmax ;
+     }
+
+  }
+
+ 

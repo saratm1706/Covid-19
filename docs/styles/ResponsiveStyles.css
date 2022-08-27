@@ -1,0 +1,219 @@
+@media screen and (max-width:1128px) and (min-width:580px){
+    /* header{
+      height:115vh
+    } */
+    .sticker{
+      width : 20rem;
+    }
+    .title{
+      font-size: 1.7rem;
+    }
+    .subtitle{
+      left: 10rem;
+      font-size: 1.3rem;
+    }
+    .charts ,.charts2 {
+      display: block;
+      position: relative;
+      height: 50vh;
+      width: 70vw;
+      margin: 1vh 14vw 1vh 14vw;
+      padding: 0vh 0 0vh 0 ;
+    }
+    .charts2{
+      height: 50vh;
+    }
+    .world-data,
+    .country-data {
+      margin:0vh 0 0vh 0;
+      height:7vh;
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+    
+    }.country-data{
+      height:8vh;
+      margin: 0vh 0vw 1vh 4vw;
+    }
+    #Countrydiv{
+      padding:3vh 0 0 0
+    }
+    .sticker{
+      height: 6vh;
+    }
+  }
+  
+  @media screen and (max-device-height:580px) and (min-device-height:0px){
+    
+    .sticker{
+      height: 7.5vh;
+      width:22vw;
+
+    }
+    .title{
+      top: 0.23vh;
+      font-size: 2vw;
+      /* left: 1vw; */
+    }
+    .subtitle{
+      top: 3.7vh;
+      font-size: 1.5vw;
+      left:11vw;
+
+    }
+    header{
+      /* height:190vh; */
+      padding: 0 0 1vh 0;
+      border-bottom: 0.7vh double grey;
+    }
+    .charts ,.charts2 {
+      display: block;
+      position: relative;
+      height: 80vh;
+      width: 80vw;
+      margin: 1vh 4vw 2vh 10vw;
+      padding: 0vh 0 0vh 0 ;
+    }
+    .world-data,
+    .country-data {
+      margin:4vh 0 6vh 0;
+      height:7vh;
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+    
+    }.country-data{
+      height:8vh;
+      margin: 0vh 0vw 1vh 4vw;
+    }
+    .world-data div,.country-data div{
+      font-size: 4.5vmin;
+    }
+  
+    #Countrydiv{
+      padding:3vh 0 0 0
+    }
+    .gotop {
+      right:3vw;
+      height: 8vmin;
+    }
+    .goBack {
+      right:3vw;
+      height: 8vmin;
+    }
+    .footer{
+      height:13vh;
+      padding: 1vh 0 1vh 0;
+      width: 100vw;
+      column-gap: 10px;
+    }   
+    .footer abbr img{
+      height:17px
+    }
+    .stateTable{
+      width: 20rem;
+      left:50%;
+    }
+   .stateTable tr{
+      height:1.5rem
+    }
+    .stateTable tr td:nth-child(even) {
+      width :7rem;
+      text-align: left;
+     padding-left: 3rem;
+    }
+  }
+
+  @media screen and (max-device-width:580px) and (min-device-width:0px) and (orientation : portrait){
+    .sticker{
+      height: 6vh;
+      width:45vw;
+    }
+    .title{
+      top: 1vh;
+      font-size: 2.5vh;
+    }
+    .subtitle{
+      top: 3.3vh;
+      font-size: 1.7vh;
+      left:20vw;
+
+    }
+    header{
+      /* height:123vh; */
+      padding: 0 0 1vh 0;
+      border-bottom: 0.7vh double grey;
+    }
+    .charts ,.charts2 {
+      display: block;
+      position: relative;
+      height: 50vh;
+      width: 90vw;
+      margin: 1vh 4vw 2vh 4vw;
+      padding: 0vh 0 0vh 0 ;
+    }
+    .charts2{
+      height: 50vh;
+    }
+    .world-data,
+    .country-data {
+      margin:4vh 0 2vh 0;
+      height:7vh;
+      display: grid;
+      grid-template-columns: 1fr  1fr;
+    
+    }.country-data{
+      height:8vh;
+      margin: 0vh 0vw 1vh 4vw;
+    }
+    .world-data div,.country-data div{
+      font-size: 3.5vmin;;
+    }
+    #world_heading{
+      margin-top: 3.3vh;
+    }
+    #country_heading{
+      margin-top: 0.5vh;
+      margin-bottom: 1.5vh;
+    }
+    #Countrydiv{
+      padding:4vh 0 0 0
+    }
+    .gotop {
+      right:3vw;
+      height: 8vmin;
+    }
+    .goBack {
+      right:3vw;
+      height: 8vmin;
+    }
+
+    .footer{
+      font-size: 2vh;
+      /* grid-template-columns: 5fr  2fr 1fr 2fr 5fr; */
+      /* grid-gap: 10px; */
+      grid-template-columns: 13fr 1fr 1fr 1fr 3fr;
+      column-gap: 10px;
+    }
+    .footer a img{
+      height: 30px;
+    }
+    .footer abbr img{
+      height:17px
+    }
+    .stateTable{
+      width: 17rem;
+      left:50%;
+    }
+   .stateTable tr{
+      height:1.5rem
+    }
+    .stateTable tr td:nth-child(even) {
+      width :7rem;
+      text-align: left;
+     padding-left: 2.5rem;
+    }
+  }
+  @media screen and (max-width:580px) and (min-device-width:580px){
+  body  {
+      display:none;
+  }
+}
